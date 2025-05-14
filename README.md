@@ -1,6 +1,7 @@
 # 🎵 Spotify Clone (HTML & CSS Only)
 
 This is a simple **Spotify Clone** built using **HTML** and **CSS**. It replicates the basic look and feel of Spotify's desktop UI. The project is fully static and meant for learning and showcasing front-end design skills.
+👉 **Live Demo**: [[spotify-clone.netlify.app](https://spotify-clone.netlify.app)](https://spotify-clone89.netlify.app/)  
 
 ## 🚀 Features
 
@@ -27,7 +28,7 @@ The layout is optimized for **desktop view**. Future updates may include improve
 - **Flexbox & Grid**
 - **Font Awesome (for icons)**
 
-## 📌 How to Use
+
 
 1. Clone or download this repository:
    ```bash
