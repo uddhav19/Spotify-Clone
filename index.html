@@ -32,8 +32,8 @@
                         <a href="#">Your Library</a>
                     </div>
                     <div class="icons">
-                        <i class="fa-solid fa-plus"></i>
-                        <i class="fa-solid fa-arrow-right"></i>
+                        <i class="fa-solid fa-plus" style="cursor:pointer;"></i>
+                        <i class="fa-solid fa-arrow-right" style="cursor:pointer;"></i>
                     </div>
 
                 </div>
@@ -41,12 +41,12 @@
                     <div class="box">
                         <p class="box-p1">Create your first playlist</p>
                         <p class="box-p2">It's easy, we'll help you</p>
-                        <button class="badge">Create playlist</button>
+                        <button class="badge" style="cursor:pointer;">Create playlist</button>
                     </div>
                     <div class="box">
                         <p class="box-p1">Let's find some podcasts to follow</p>
                         <p class="box-p2">we'll keep you updated on new episodes</p>
-                        <button class="badge">Browse podcasts</button>
+                        <button class="badge" style="cursor:pointer;">Browse podcasts</button>
                     </div>
                 </div>
                 
@@ -55,14 +55,14 @@
         <div class="main-content">
             <div class="sticky-nav">
                 <div class="sticky-nav-icons">
-                <img src="./assets/backward_icon.png">
-                <img src="./assets/forward_icon.png" class="hide">
+                <img src="./assets/backward_icon.png" style="cursor:pointer;">
+                <img src="./assets/forward_icon.png" class="hide" style="cursor:pointer;">
 
                 </div>
                 <div class="sticky-nav-options">
-                   <button class="badge nav-item hide">Explore Premium</button>
-                  <button class="badge nav-item dark-badge" ><i class="fa-solid fa-circle-arrow-down" style="margin-right: 5px;"></i>Install App</button>
-                  <i class="fa-regular fa-user nav-item"></i>
+                   <button class="badge nav-item hide " style="cursor:pointer;">Explore Premium</button>
+                  <button class="badge nav-item dark-badge" style="cursor:pointer;" ><i class="fa-solid fa-circle-arrow-down" style="margin-right: 5px;"></i>Install App</button>
+                  <i class="fa-regular fa-user nav-item" style="cursor:pointer;"></i>
                     
                 </div>
               
@@ -71,7 +71,7 @@
             
                 <h2>Recently played</h2>
                 <div class="card-container">
-                    <div class="card">
+                    <div class="card" style="cursor:pointer;">
                         <img src="./assets/card1img.jpeg" class="card-img">
                         <p class="card-title">Top 50 - Global</p>
                         <p class="card-info">Your daily updates pf the most played tracks...</p>
@@ -79,26 +79,26 @@
                 </div>
 
                 <h2>Trending now nearly</h2>
-                <div class="card-container">
-                    <div class="card">
+                <div class="card-container" >
+                    <div class="card" style="cursor:pointer;">
                         <img src="./assets/card2img.jpeg" class="card-img">
-                        <p class="card-title">Top 50 - Global</p>
-                        <p class="card-info">Your daily updates pf the most played tracks...</p>
+                        <p class="card-title">Daily mix 1</p>
+                        <p class="card-info">Relieve the best tracks ...</p>
                     </div>
                     <div class="card">
                         <img src="./assets/card3img.jpeg" class="card-img">
-                        <p class="card-title">Top 50 - Global</p>
-                        <p class="card-info">Your daily updates pf the most played tracks...</p>
+                        <p class="card-title">Daily mix 2</p>
+                        <p class="card-info">Your weeky fresh music...</p>
                     </div>
                     <div class="card">
                         <img src="./assets/card4img.jpeg" class="card-img">
-                        <p class="card-title">Top 50 - Global</p>
-                        <p class="card-info">Your daily updates pf the most played tracks...</p>
+                        <p class="card-title">Made for you</p>
+                        <p class="card-info">Catch all music from best artists...</p>
                     </div>
                     <div class="card">
                         <img src="./assets/card5img.jpeg" class="card-img">
-                        <p class="card-title">Top 50 - Global</p>
-                        <p class="card-info">Your daily updates pf the most played tracks...</p>
+                        <p class="card-title">Top Songs Global</p>
+                        <p class="card-info">Top Global songs</p>
                     </div><div class="card">
                         <img src="./assets/card1img.jpeg" class="card-img">
                         <p class="card-title">Top 50 - Global</p>
@@ -117,16 +117,16 @@
                     <div class="card">
                         <img src="./assets/card5img.jpeg" class="card-img">
                         <p class="card-title">Top 50 - Global</p>
-                        <p class="card-info">Your daily updates pf the most played tracks...</p>
+                        <p class="card-info">Top 50 - Global- Weekly music charts...</p>
                     </div>
                     <div class="card">
                         <img src="./assets/card6img.jpeg" class="card-img">
-                        <p class="card-title">Top 50 - Global</p>
-                        <p class="card-info">Your daily updates pf the most played tracks...</p>
+                        <p class="card-title">Top Songs - india</p>
+                        <p class="card-info">Top Songs - india- Weekly music charts</p>
                     </div><div class="card">
                         <img src="./assets/card1img.jpeg" class="card-img">
                         <p class="card-title">Top 50 - Global</p>
-                        <p class="card-info">Your daily updates pf the most played tracks...</p>
+                        <p class="card-info">Play your favourate music</p>
                     </div>
                 </div>
                 <div class="footer">
@@ -162,7 +162,18 @@
                     <span class="total-time">3.50</span>
                 </div>
             </div>
-            <div class="controls"></div>
+            <div class="controls">
+                <div class="control-div">
+                    <i class="fa-solid fa-play control-div-icon" ></i>
+                    <i class="fa-solid fa-music control-div-icon"></i>
+                    <i class="fa-solid fa-bars control-div-icon"></i>
+                    <i class="fa-solid fa-laptop control-div-icon"></i>
+                    <i class="fa-solid fa-volume-off control-div-icon"></i>
+                     <input type="range" min="0" max="100" class="volume-bar" step="1">
+                    <i class="fa-solid fa-arrow-up-right-from-square control-div-icon"></i>
+                    <i class="fa-solid fa-expand control-div-icon"></i>
+                </div>
+            </div>
         </div>
     </div>
 </body>
