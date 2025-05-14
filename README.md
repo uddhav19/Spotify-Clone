@@ -13,7 +13,7 @@ This is a simple **Spotify Clone** built using **HTML** and **CSS**. It replicat
 > 
 ## 🖼️ Screenshots
 
-![Description](assets/screenshot1.png)
+![Description](assets/home.png)
 
 
 ## 📱 Responsiveness
