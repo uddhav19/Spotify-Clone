@@ -32,6 +32,6 @@ The layout is optimized for **desktop view**. Future updates may include improve
 
 1. Clone or download this repository:
    ```bash
-   git clone https://github.com/your-username/spotify-clone.git
+   https://github.com/uddhav19/Spotify-Clone.git
 
 
